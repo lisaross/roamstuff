@@ -1,12 +1,12 @@
 /* PERSONAL TAGS */
-span.rm-page-ref[data-tag="River"],
-span.rm-page-ref[data-tag="Tara"],
-span.rm-page-ref[data-tag="Kaarina"],
-span.rm-page-ref[data-tag="Kyla"],
-span.rm-page-ref[data-tag="MomJune"],
-span.rm-page-ref[data-tag="MomPat"],
-span.rm-page-ref[data-tag="BrotherDave"],
-
+span.rm-page-ref[data-tag="Personal"],
+span.rm-page-ref[data-tag="River"]
 {
   background: #970297;
+}
+
+.roam-block-container[data-page-links*='Personal'],
+.roam-block-container[data-page-links*='River']
+{
+ background-color:#9C27B019;
 }
