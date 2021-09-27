@@ -1,0 +1,19 @@
+/* Namespace link color */
+.rm-page-ref--namespace {
+  color: #167bb9;
+}
+/* Highlighter Color */
+.rm-highlight, .block-highlight-yellow {
+  background-color: #FFD50884;
+  padding: 0px 4px;
+  display: inline-block;
+}
+/* Show toggle in linked references */
+.flex-h-box {
+color: #E2E2E2;
+text-decoration: none;
+}
+/* Show switches in queries */
+.bp3-control.bp3-switch.bp3-align-right {
+color: #cecece;
+}
