@@ -1,0 +1,76 @@
+/*-----------------------------------------------------------------------------
+  Lisa Ross' updated Roam/Zettelkasten CSS based on
+  Beau Haan's Zettlekasten Styles (See: https://roamresearch.com/#/app/Help/page/ULnYNyHbj)
+----------------------------------------------------------------------------- */
+
+/* ALL Zettelkasten NOTES */
+span.rm-page-ref[data-tag="Fleeting Notes"],
+span.rm-page-ref[data-tag="Literature Notes"],
+span.rm-page-ref[data-tag="Reference Notes"],
+span.rm-page-ref[data-tag="Permanent Notes"],
+span.rm-page-ref[data-tag="Relevant Notes"] {
+  background-size: 100%;
+  color: #fff;
+  padding: 3px 7px 3px 7px;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1em;
+  border-radius: 50px;
+  position:relative;
+}
+
+/* FLEETING NOTES */
+span.rm-page-ref[data-tag="Fleeting Notes"]
+{ background: #F21DA1; }
+
+/* LITERATURE NOTES */
+span.rm-page-ref[data-tag="Literature Notes"]
+{ background: #45C104; }
+
+/* REFERENCE NOTES */
+span.rm-page-ref[data-tag="Reference Notes"] {
+  background: #F26E1D;
+}
+
+/* PERMANENT NOTES */
+span.rm-page-ref[data-tag="Permanent Notes"] {
+  background-image: linear-gradient(90deg, #0295ff, #0295ff);
+  background-size: 100%;
+  padding: 5px 10px;
+  border-radius: 5px 0 0 5px;
+}
+
+span.rm-page-ref[data-tag="Permanent Notes"] + span[data-link-title] {
+  background: #bde2fb !important;
+  padding: 5px 15px 5px 15px;
+  border-radius: 0 5px 5px 0;
+  margin-left: -5px;
+  font-size: 13px;
+  line-height: 1.3em;
+  font-weight: 400;
+}
+span.rm-page-ref[data-tag="Permanent Notes"] + span[data-link-title] .rm-page-ref--link {
+  color: #008DFD !important;
+}
+
+/* RELEVANT NOTES */
+span.rm-page-ref[data-tag="Relevant Notes"] {
+  background: #9C27B0;
+  color: #FFFFFF;
+  background-size: 100%;
+  padding: 5px 10px 5px 7px;
+  border-radius: 5px 0 0 5px;
+}
+
+span.rm-page-ref[data-tag="Relevant Notes"] + span[data-link-title] {
+  background: #7802FF21 !important;
+  padding: 5px 15px 5px 15px;
+  border-radius: 0 5px 5px 0;
+  margin-left: -5px;
+  font-size: 13px;
+  line-height: 1.3em;
+  font-weight: 400;
+}
+span.rm-page-ref[data-tag="Relevant Notes"] + span[data-link-title] .rm-page-ref--link {
+  color: #9C27B0 !important;
+}
