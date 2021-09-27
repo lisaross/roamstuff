@@ -1,0 +1,17 @@
+/* AVENUE TAGS */
+span.rm-page-ref[data-tag="Career"],
+span.rm-page-ref[data-tag="Mentor"],
+span.rm-page-ref[data-tag="Mentorship"],
+span.rm-page-ref[data-tag="Mentoring"],
+span.rm-page-ref[data-tag="Program Design"],
+span.rm-page-ref[data-tag="EdTech"],
+span.rm-page-ref[data-tag="People Analytics"],
+span.rm-page-ref[data-tag="Internal Recruiting"],
+span.rm-page-ref[data-tag="Multigenerational Workforce"],
+span.rm-page-ref[data-tag="Future of Work"],
+span.rm-page-ref[data-tag="Human Connection"],
+span.rm-page-ref[data-tag="Employee Engagement"],
+span.rm-page-ref[data-tag="Employee Experience"]
+{
+  background: #1A3CFA;
+}
