@@ -8,6 +8,7 @@ Quick and dirty: to keep it simple, I've separated the style types into individu
 ![screenshot](https://github.com/lisaross/roamstuff/blob/main/img/customstyles.png?raw=true)
 
 And here are my work specific ones in case you want to customize them for your own use case:
+
 ![screenshot](https://github.com/lisaross/roamstuff/blob/main/img/workspecific.png?raw=true)
 ---
 ## Alfred Snippets
