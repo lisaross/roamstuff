@@ -1,0 +1,46 @@
+/* Shared */
+
+span[data-link-title="Priority/Low"] .rm-page-ref, span[data-link-title="Priority/Medium"] .rm-page-ref, span[data-link-title="Priority/High"] .rm-page-ref, span[data-link-title="Priority/Critical"] .rm-page-ref {
+  background-size: 100%;
+  color: #ffffff;
+  padding: 4px 10px 4px 10px;
+  line-height: 1.3em;
+  font-weight: 500;
+  font-size: 13px;
+  border-radius: 5px;
+  position:relative;
+  text-decoration:none;
+  display: inline-block; //this keeps the button on the same line
+}
+
+/* Low */
+span[data-link-title="Priority/Low"] .rm-page-ref {
+   background-image: linear-gradient(90deg, #1DA1F2, #1DA1F2);
+}
+span[data-link-title="Priority/Low"] .rm-page-ref::before {
+  content: "▽ ";
+}
+
+/* Medium */
+span[data-link-title="Priority/Medium"] .rm-page-ref {
+   background-image: linear-gradient(90deg, #FFC107, #FFC107);
+}
+span[data-link-title="Priority/Medium"] .rm-page-ref::before {
+  content: "○ ";
+}
+
+/* High */
+span[data-link-title="Priority/High"] .rm-page-ref {
+   background-image: linear-gradient(90deg, #FF9800, #FF9800);
+}
+span[data-link-title="Priority/High"] .rm-page-ref::before {
+  content: "△ ";
+}
+
+/* Critical */
+span[data-link-title="Priority/Critical"] .rm-page-ref {
+   background-image: linear-gradient(90deg, #d33a2f, #d33a2f);
+}
+span[data-link-title="Priority/Critical"] .rm-page-ref::before {
+  content: "↯ ";
+}
