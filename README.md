@@ -10,6 +10,13 @@ Quick and dirty: to keep it simple, I've separated the style types into individu
 And here are my work specific ones in case you want to customize them for your own use case:
 
 ![screenshot](https://github.com/lisaross/roamstuff/blob/main/img/workspecific.png?raw=true)
+
+I like to highlight items that are personal in nature (cottage, kids, yard work, etc) so having tags to do that (and filter out) is great.
+
+Sometimes I want everything front and center, AND also want to be able to visually separate the contexts. I added a different tag color to those personal-type tags and put in a subtle background color to any block with that tag.
+
+![screenshot](https://github.com/lisaross/roamstuff/blob/main/img/personal.png?raw=true)
+
 ---
 ## Alfred Snippets
 
