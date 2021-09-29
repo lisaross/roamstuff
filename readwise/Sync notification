@@ -1,4 +1,0 @@
-{# Variables: {{date}},{{time}}, {{num_highlights}}, {{num_books}} #}
-{# Documentation https://help.readwise.io/article/112-how-can-i-customize-the-roam-export#notification #}
-
-On [[{{date}}]] at {{time}} Readwise synced {{num_highlights}} highlight{{num_highlights|pluralize}} from {{num_books}} reference{{num_books|pluralize}}. [See them here]([[Readwise NEW]])

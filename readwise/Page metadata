@@ -1,4 +1,0 @@
-{# Variables: {{title}}, {{full_title}}, {{author}}, {{url}}, {{category}}, {{image_url}}, {{date}}, {{time}}, {{source}} (e.g. kindle, pocket) #}
-{# Documentation: https://help.readwise.io/article/112-how-can-i-customize-the-roam-export#metadata #}
-
-Metadata:: [[{{author}}]]{% if url %} | [Source]({{url}}){% endif %} | #{{category.capitalize()}}{% if document_tags %} | {% for tag in document_tags %}#{{tag}} {% endfor %} {% endif %} | #INBOX #ForZotero
