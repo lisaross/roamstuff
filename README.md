@@ -62,4 +62,3 @@ Note: I use this personally and I haven't done any accessibility, cross browser 
 ## Contributing
 
 Pull requests are welcome. I've thrown up an issues page in case you have things you think I'd benefit from or errors you've found and have solutions for. Happy to make this collaborative! For major changes, please open an issue first to discuss what you would like to change.
----
