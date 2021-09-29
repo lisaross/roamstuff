@@ -26,7 +26,7 @@ I've done a quick export of the Alfredapp snippets I use on the daily to type qu
 ![screenshot](https://github.com/lisaross/roamstuff/blob/master/img/alfredsnippets.png?raw=true)
 ---
 
-## Roam / Readwise Templates
+## Readwise Templates - Roam Export
 
 Thanks to [[RoamStack]] for his [inspiration here](https://roamstack.com/feed-roam-using-readwise/), creating templates for Readwise that pull good metadata into Roam Research for books, articles and other resources funnelled through their service.
 
@@ -50,11 +50,15 @@ Readwise also allows imports from more manual sources like:
 ### Installation
 
 Head to the [Roam Export](https://readwise.io/export/roam/preferences) config page and paste the specific templates into their areas. Documentation sprinkles the page throughout in case you want to learn more or customize to your needs.
+
 ---
+
 ## Disclaimer
 
 Note: I use this personally and I haven't done any accessibility, cross browser or cross platform testing. I'm on a Mac, using Chrome 94.0.4606.61 and a bunch of Roam js. I also use the [Roam Toolkit](https://chrome.google.com/webstore/detail/roam-toolkit/ebckolanhdjilblnkcgcgifaikppnhba) chrome plugin. No guarantees that this will work in your environment, though it's been pretty stable for me so far.
+
 ---
+
 ## Contributing
 
 Pull requests are welcome. I've thrown up an issues page in case you have things you think I'd benefit from or errors you've found and have solutions for. Happy to make this collaborative! For major changes, please open an issue first to discuss what you would like to change.
