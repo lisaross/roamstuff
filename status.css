@@ -1,0 +1,87 @@
+/* Shared */
+span[data-link-title="Status/Complete"] .rm-page-ref, span[data-link-title="Status/Ongoing"] .rm-page-ref, span[data-link-title="Status/In Progress"] .rm-page-ref, span[data-link-title="Status/Hold"] .rm-page-ref, span[data-link-title="Status/Planning"] .rm-page-ref, span[data-link-title="Status/Cancelled"] .rm-page-ref
+{
+  background-size: 100%;
+  padding: 4px 10px 4px 10px;
+  line-height: 1.3em;
+  font-weight: 500;
+  font-size: 13px;
+  border-radius: 5px;
+  position:relative;
+  text-decoration:none;
+  display: inline-block; //this keeps the button on the same line
+}
+
+/* In Progress */
+span[data-link-title="Status/In Progress"] .rm-page-ref
+{
+  color: #1DA1F2;
+  background-image: linear-gradient(90deg, #EBF4FB, #EBF4FB);
+}
+span[data-link-title="Status/In Progress"] .rm-page-ref::before {
+  content: "◔ ";
+  vertical-align: 8%;
+}
+
+/* Ongoing */
+span[data-link-title="Status/Ongoing"] .rm-page-ref
+{
+  color: #dd8e44;
+  background-image: linear-gradient(90deg, #DD8E4419, #DD8E4419);
+}
+span[data-link-title="Status/Ongoing"] .rm-page-ref::before {
+  content: "∞ ";
+  vertical-align: 8%;
+}
+
+/* Hold */
+span[data-link-title="Status/Hold"] .rm-page-ref
+{
+  color: #d33a2f;
+
+  background-image: linear-gradient(90deg, #fae5d4, #fae5d4);
+}
+span[data-link-title="Status/Hold"] .rm-page-ref::before {
+  content: "⊙ ";
+  vertical-align: 8%;
+}
+
+
+/* Planning */
+span[data-link-title="Status/Planning"] .rm-page-ref
+{
+  color: #ffcc00;
+   background-image: linear-gradient(90deg, #fff5d8, #fff5d8);
+}
+span[data-link-title="Status/Planning"] .rm-page-ref::before {
+  content: "⇢ ";
+  vertical-align: 8%;
+}
+
+/* Cancelled */
+
+.roam-block-container[data-page-links*='Status/Cancelled'] {
+  background-image: linear-gradient(90deg, #11111114, #11111114);
+}
+.roam-block-container[data-page-links*='Status/Cancelled'] div div span {
+  font-size: 13px;
+}
+span[data-link-title="Status/Cancelled"] .rm-page-ref::before {
+  content: "∅ ";
+  vertical-align: 8%;
+}
+span[data-link-title="Status/Cancelled"] .rm-page-ref
+{
+  background-image: linear-gradient(90deg, #11111128, #11111128);
+  color: #5C5A5A;
+}
+
+/* Complete */
+span[data-link-title="Status/Complete"] .rm-page-ref
+{
+  color: #4CAF50;
+   background-image: linear-gradient(90deg, #e3f2e3, #e3f2e3);
+}
+span[data-link-title="Status/Complete"] .rm-page-ref::before {
+  content: "✪ ";
+}

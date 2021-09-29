@@ -1,0 +1,4 @@
+{# Variables:{{title}}, {{full_title}}, {{author}}, {{category}} #}
+{# Documentation: https://help.readwise.io/article/112-how-can-i-customize-the-roam-export#title #}
+
+{{category.capitalize()[:-1]}}/{{title}}

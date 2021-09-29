@@ -1,0 +1,21 @@
+/* AVENUE DISTINCTIONS */
+span.rm-page-ref[data-tag="D"] {
+  background: #1A3CFA;
+  color: #FFFFFF;
+  background-size: 100%;
+  padding: 5px 10px 5px 7px;
+  border-radius: 5px 0 0 5px;
+}
+
+span.rm-page-ref[data-tag="D"] + span[data-link-title] {
+  background: #1A3CFA30 !important;
+  padding: 5px 15px 5px 15px;
+  border-radius: 0 5px 5px 0;
+  margin-left: -5px;
+  font-size: 13px;
+  line-height: 1.3em;
+  font-weight: 400;
+}
+span.rm-page-ref[data-tag="D"] + span[data-link-title] .rm-page-ref--link {
+  color: #1A3CFA !important;
+}
