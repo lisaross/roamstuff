@@ -17,6 +17,14 @@ Sometimes I want everything front and center, AND also want to be able to visual
 
 ![screenshot](https://github.com/lisaross/roamstuff/blob/master/img/personal.png?raw=true)
 
+Note: for the Zettelkasten styles to work you need to make sure the note itself is surrounded by brackets (this is common practice: to keep the note atomic you make the thought the title of the page)
+
+Like so:
+`#[[Permanent Notes]] [[This is a permanent note, which is now also a page]]`
+
+Zettelkastens are complicated for the beginner (and the advanced, frankly, if you spend too much time tooling it). If you aren't sure what I'm talking about, here's a robust intro for you: https://www.thrivinghenry.com/writings/roamkasten-a-practical-how-to-guide-to-optimize-zettelkasten-in-roam-research
+
+
 ---
 ## Alfred Snippets
 
