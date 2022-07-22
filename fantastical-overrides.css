@@ -1,22 +1,50 @@
 /* My overrides for the BRILLIANT @josephmwood Fantastical css */
 /* See https://josephwood.xyz/my-fantastical-light-and-dark-theme-for-roam */
 
+/* Fixes for Roam Depot and dark settings  */
+div.rm-extensions-marketplace-dialog div, div.rm-settings-panel div {
+  color: #fff;
+}
+.rm-settings--desktop .rm-settings__tab:not(.rm-settings__panel-wrapper):hover {
+  color: #fff;
+}
 /* Namespace link color */
 .rm-page-ref--namespace {
-  color: #167bb9;
+    color: #167bb9;
 }
 /* Highlighter Color */
 .rm-highlight, .block-highlight-yellow {
-  background-color: #FFD50884;
-  padding: 0px 4px;
-  display: inline-block;
+    background-color: #FFD50884;
+  	padding: 0px 4px;
+    display: inline-block;
 }
 /* Show toggle in linked references */
 .flex-h-box {
-color: #E2E2E2;
-text-decoration: none;
+  color: #E2E2E2;
+  text-decoration: none;
 }
 /* Show switches in queries */
 .bp3-control.bp3-switch.bp3-align-right {
-color: #cecece;
+  color: #cecece;
+}
+
+/*fix weird blockquote spacing */
+span.rm-block-ref blockquote.rm-bq {
+	border-left: 18px solid #3F51B5 !important;
+	margin: -24px 0;
+}
+
+span.rm-block-ref:hover blockquote.rm-bq {
+background-color:none;
+}
+
+#right-sidebar .rm-bq {
+  margin: 1px 0 0 0;
+}
+
+#right-sidebar span.rm-block-ref blockquote.rm-bq {
+margin: -20px 0;
+}
+.rm-bq {
+  margin: -1px 0 0 0;
 }
